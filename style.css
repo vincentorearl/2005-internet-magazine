@@ -166,6 +166,7 @@ h3 {
     position: absolute;
     top: 420px;
     right: 650px;
+    z-index: 0;
     
     /* Border styles */
     border: 4px solid rgb(0, 135, 246);
@@ -183,7 +184,6 @@ h3 {
     font-size: 1.5em;
     font-family: georgia;
     letter-spacing: .5px;
-    /* text-shadow: 0px 0px 13px rgb(245, 244, 240); */
 }
 
 .hero .btnB {
@@ -194,6 +194,7 @@ h3 {
   position: absolute;
   top: 460px;
   right: 650px;
+  z-index: 0;
   
   /* Border styles */
   border: 4px solid rgb(0, 45, 246);
@@ -211,7 +212,6 @@ h3 {
   font-size: 1.5em;
   font-family: Georgia, 'Times New Roman', Times, serif;
   letter-spacing: .5px;
-  /* text-shadow: 0px 0px 13px rgb(245, 244, 240); */
 }
 
 .hero .btnD {
@@ -222,6 +222,7 @@ h3 {
   position: absolute;
   top: 505px;
   right: 650px;
+  z-index: 0;
   
   /* Border styles */
   border: 4px solid  rgb(78, 16, 221);
@@ -239,7 +240,6 @@ h3 {
   font-size: 1.5em;
   font-family: Georgia, 'Times New Roman', Times, serif;
   letter-spacing: 1px;
-  /* text-shadow: 0px 0px 13px rgb(245, 244, 240); */
 }
 
 .hero .btnA:hover {
@@ -390,31 +390,108 @@ audio {
   height: 30px;
 }
 
-/* audio::-webkit-media-controls-panel {
-  background-color: #000000;
+@media only screen and (max-width: 600px) {
+  body {
+
+    
+  }
 }
 
-audio::-webkit-media-controls-current-time-display {
-  color: rgb(0, 0, 0);
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="introImage"] {
+    width:95%;
+    height: 50%;
+  }
 }
 
-audio::-webkit-media-controls-time-remaining-display {
-  color: rgb(0, 0, 0);
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="hero"] {
+font-size: 60%;
+  }
 }
 
-audio::-webkit-media-controls-play-button {
-  background-color: #626262;
-  border-radius: 50%;
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .hero h2{
+    font-size: 200%; 
+
+  }
 }
 
-audio::-webkit-media-controls-play-button:hover {
-  background-color: rgba(109, 109, 109, 0.7);
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+.hero .btnA {
+    position:static;
+  }
 }
 
-audio::-webkit-media-controls-volume-slider {
-  background-color: rgb(36, 36, 36);
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #concept{
+font-size: 30%;
+  }
 }
 
-audio::-webkit-media-controls-volume-slider-container {
-  background-color: rgb(88, 88, 88);
-} */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ .nav {
+  display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ .rectangle {
+  width: 80%;
+  height: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ iframe {
+  width: 90%;
+  height: 80%;
+  margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .rectangleVoldy {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .lyrics {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .axol p {
+    width: 85%;
+    margin-left: 9px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .anime {
+    margin: 0px 35px ;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #aboutMe p{
+    margin-left: 20px;
+    border-radius: 20px;
+    width: 60%;
+  }
+}
